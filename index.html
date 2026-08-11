@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Accessible Audio Quiz</title>
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="Accessible audio quiz application for students">
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+  <h1 id="quizTitle" tabindex="0">MC Quiz</h1>
+  <h2 id="questionTitle" tabindex="0">Question</h2>
+  <p class="question-counter" aria-live="polite" aria-atomic="true">Loading questions...</p>
+</header>
+
+<main role="main" aria-label="Quiz content">
+
+<section aria-labelledby="questionTitle">
+  <p id="questionText" tabindex="0" role="region" aria-live="polite"></p>
+
+  <audio id="audioPlayer" controls aria-label="Audio clip for this question">
+    <source id="audioSource" src="" type="audio/mpeg">
+    Your browser does not support the audio element.
+  </audio>
+</section>
+
+<section aria-label="Answer options">
+  <fieldset>
+    <legend class="sr-only">Select your answer</legend>
+    <div id="options" role="group" aria-label="Multiple choice options"></div>
+  </fieldset>
+</section>
+
+<section aria-label="Feedback" aria-live="assertive" aria-atomic="true">
+  <div id="feedback" role="status"></div>
+</section>
+
+<nav aria-label="Quiz controls" class="controls-section">
+  <div class="button-group">
+    <button onclick="speakQuestion()" aria-label="Speak the question and all options" class="btn btn-primary">
+      <span aria-hidden="true">🔊</span> Speak
+    </button>
+    <button onclick="stop()" aria-label="Stop speaking" class="btn btn-secondary">
+      <span aria-hidden="true">⏹</span> Stop
+    </button>
+  </div>
+
+  <div class="button-group">
+    <button onclick="checkAnswer()" aria-label="Check your answer" class="btn btn-success">
+      <span aria-hidden="true">✓</span> Check Answer
+    </button>
+  </div>
+
+  <div class="button-group navigation">
+    <button onclick="prevQuestion()" aria-label="Go to previous question" class="btn btn-nav">
+      <span aria-hidden="true">◀</span> Previous
+    </button>
+    <button onclick="nextQuestion()" aria-label="Go to next question" class="btn btn-nav">
+      <span aria-hidden="true">▶</span> Next
+    </button>
+  </div>
+</nav>
+
+</main>
+
+<footer role="contentinfo" aria-label="Footer">
+  <p>
+    <span class="created-by">Created by: <strong>Eltayeb Ali Abdalla Mohamed</strong></span>
+  </p>
+  <p>
+    <span class="copyright">&copy; 2025 Eltayeb Ali Abdalla Mohamed. All rights reserved.</span>
+  </p>
+  <p><small>Tip: Use screen reader or keyboard navigation for better accessibility</small></p>
+</footer>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

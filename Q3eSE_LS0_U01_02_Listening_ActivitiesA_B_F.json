@@ -1,0 +1,72 @@
+{
+  "mc quiz title": "Hobbies On Campus",
+  "questions": [
+    {
+      "audio": "audio/students.mp3",
+      "text": "How many students are on the phone with Mei?",
+      "options": [
+        "5",
+        "4",
+        "3",
+        "2"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "audio/Sarah.mp3",
+      "text": "Sarah ___ with a group.",
+      "options": [
+        "runs",
+        "hikes",
+        "cooks",
+        "chats"
+      ],
+      "correct": 1
+    },
+    {
+      "audio": "audio/Mei.mp3",
+      "text": "Mei likes to ___.",
+      "options": [
+        "bake",
+        "garden",
+        "play tennis",
+        "build shelves"
+      ],
+      "correct": 0
+    },
+     {
+      "audio": "audio/Hiro.mp3",
+      "text": "Hiro reads ___.",
+      "options": [
+        "books on histoy.",
+        "newspapers every day",
+        "play tennis",
+        "build shelves"
+      ],
+      "correct": 0
+    },
+     {
+      "audio": "audio/Ben.mp3",
+      "text": "Ben likes to collect ___.",
+      "options": [
+        "books on histoy.",
+        "postcards",
+        "stamps",
+        "baseball hats"
+      ],
+      "correct": 3
+    },
+     {
+      "audio": "audio/Hamad.mp3",
+      "text": "Hamad is good at ___.",
+      "options": [
+        "histoy.",
+        "photogaphy",
+        "math",
+        "baseball"
+      ],
+      "correct": 2
+    }
+    
+  ]
+}
