@@ -25,7 +25,7 @@
     },
     {
       "audio": "audio/Mei.mp3",
-      "text": "Mei likes to ___.",
+      "text": "Mei likes to ___",
       "options": [
         "bake",
         "garden",
@@ -36,9 +36,9 @@
     },
      {
       "audio": "audio/Hiro.mp3",
-      "text": "Hiro reads ___.",
+      "text": "Hiro reads ___",
       "options": [
-        "books on histoy.",
+        "books on histoy",
         "newspapers every day",
         "play tennis",
         "build shelves"
@@ -47,7 +47,7 @@
     },
      {
       "audio": "audio/Ben.mp3",
-      "text": "Ben likes to collect ___.",
+      "text": "Ben likes to collect ___",
       "options": [
         "books on histoy.",
         "postcards",
@@ -58,7 +58,7 @@
     },
      {
       "audio": "audio/Hamad.mp3",
-      "text": "Hamad is good at ___.",
+      "text": "Hamad is good at ___",
       "options": [
         "histoy.",
         "photogaphy",
