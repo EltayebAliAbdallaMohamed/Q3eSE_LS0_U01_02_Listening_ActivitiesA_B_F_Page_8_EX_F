@@ -27,10 +27,10 @@
       "audio": "audio/Mei.mp3",
       "text": "Mei likes to ___",
       "options": [
-        "bake",
-        "garden",
-        "play tennis",
-        "build shelves"
+        "bake.",
+        "garden.",
+        "play tennis.",
+        "build shelves."
       ],
       "correct": 0
     },
@@ -38,10 +38,10 @@
       "audio": "audio/Hiro.mp3",
       "text": "Hiro reads ___",
       "options": [
-        "books on histoy",
-        "newspapers every day",
-        "play tennis",
-        "build shelves"
+        "books on history",
+        "newspapers.",
+        "play tennis.",
+        "build shelves."
       ],
       "correct": 0
     },
@@ -49,10 +49,10 @@
       "audio": "audio/Ben.mp3",
       "text": "Ben likes to collect ___",
       "options": [
-        "books on histoy.",
-        "postcards",
-        "stamps",
-        "baseball hats"
+        "books on history.",
+        "postcards.",
+        "stamps.",
+        "baseball hats."
       ],
       "correct": 3
     },
@@ -60,10 +60,10 @@
       "audio": "audio/Hamad.mp3",
       "text": "Hamad is good at ___",
       "options": [
-        "histoy.",
-        "photogaphy",
-        "math",
-        "baseball"
+        "history.",
+        "photography.",
+        "math.",
+        "baseball."
       ],
       "correct": 2
     }
